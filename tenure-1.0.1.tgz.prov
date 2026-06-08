@@ -1,0 +1,78 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/category: ai-machine-learning
+  artifacthub.io/changes: |
+    - kind: added
+      description: Initial Helm chart release
+  artifacthub.io/images: |
+    - name: tenure
+      image: tenureai/tenure:v1.0.23
+  artifacthub.io/license: MIT
+  artifacthub.io/links: |
+    - name: Documentation
+      url: https://tenureai.dev/docs
+    - name: Website
+      url: https://tenureai.dev
+    - name: Research Paper
+      url: https://arxiv.org/abs/2605.11325
+    - name: Support
+      url: https://github.com/tenurehq/tenure/issues
+  artifacthub.io/official: "true"
+apiVersion: v2
+appVersion: v1.0.23
+description: Open-source AI memory layer for engineering teams. Automatically inject
+  organizational knowledge, coding standards, and project context into every AI session
+  across VS Code, Claude Code, Cursor, Cline, Continue, and other clients.
+home: https://tenureai.dev
+icon: https://raw.githubusercontent.com/tenurehq/tenure/main/assets/tenure-logo.png
+keywords:
+- - ai
+- - memory
+- - context
+- - llm
+- - rag
+- - vscode
+- - copilot
+- - claude-code
+- - cursor
+- - continue
+- - agent
+- - agent-memory
+- - knowledge-base
+- - engineering
+- - anthropic
+- - openai
+- - mcp
+- - kubernetes
+maintainers:
+- - email: jeff@tenureai.dev
+  name: Jeff Flynt
+name: tenure
+sources:
+- - https://github.com/tenurehq/tenure
+type: application
+version: 1.0.1
+
+...
+files:
+  tenure-1.0.1.tgz: sha256:38170d9fc9905ef5c6f0ad9d8bf3127cae8518117860aee2e071587bbe543411
+
+-----BEGIN PGP SIGNATURE-----
+
+wsG5BAEBCgBtBYJqJm3WCRAzNBxhEgcUTEUUAAAAAAAcACBzYWx0QG5vdGF0aW9u
+cy5vcGVucGdwanMub3Jn5cZPivJdH3qYOr+xBWxeKDCyuyj1rJ9a2F78J9ycK8AW
+IQQDBABjuwibR8pUaCQzNBxhEgcUTAAAcl0QAJhxcGBaPoHOjsBVHUmxbxOpYmyi
+BbnGSwlRTx1HGSVHej6WKszZjfFEV+AlJtPWs6v6AFwJnw23Rikcf6ks4LFqhoTV
+CYRc6tk7ShpWkq23XKhm5Ckib65Uq7VpdVqD5A3x0FqC/rBFk95hpKLsdrvrCpQB
+o6QFKJjJabcp2Y7Ke1fXcYCdUJ7e1iuiOWT/CBODcQaVoRlCVOrz5fvr7fkG4rFQ
+MEVFBoXeqtjdEaKVKz5mwUWGW47UiwoipEM3gDsCqcouIpWAvsotg/6CKI9GOJIG
+iTTYZ6J7bxcLXuZYAaGkMdC/MOmzroY46mI2DqZKHNh1VI+PmfjRwlAktgtQPKmO
+GgAJujRNqrsE4e9s4mA141VwKFOCB+ZWdFIjaFwz1aZppiKYc4mKMoqE0Jncqzqm
+1ZEkHaKEE5p20yzTucngFVsuBlqAPIBw6HHXt1RPGRE/VjHBaTZwY7Us9PyEwun/
+/qRPnoVILAOl4bFy9kRXB/vq6L7rvByy+InygURFh737V1imW7DcXZNpE1IgtWSZ
+O4RQM5zvkMC23P3lP2UGHsF6HQmwWKOB0bZD2WXKwyqr5i+VEvvw5aBekxUeb5JH
+xb60IZ+9dBRHSp10t3p3uYenhSGAqkHYjyh5cgZ0zP7QNoV4UJtlOSimwgjl9Vv2
+DExRQ+AdSG/VV+dK
+-----END PGP SIGNATURE-----

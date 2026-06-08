@@ -6,8 +6,8 @@ description:
   AI session across VS Code, Claude Code, Cursor, Cline, Continue, and other
   clients.
 type: application
-version: 1.0.0
-appVersion: "1.0.20"
+version: 1.0.1
+appVersion: "v1.0.23"
 icon: https://raw.githubusercontent.com/tenurehq/tenure/main/assets/tenure-logo.png
 home: https://tenureai.dev
 sources:
@@ -37,6 +37,7 @@ maintainers:
 annotations:
   artifacthub.io/category: ai-machine-learning
   artifacthub.io/license: MIT
+  artifacthub.io/official: "true"
   artifacthub.io/links: |
     - name: Documentation
       url: https://tenureai.dev/docs
@@ -49,3 +50,6 @@ annotations:
   artifacthub.io/changes: |
     - kind: added
       description: Initial Helm chart release
+  artifacthub.io/images: |
+    - name: tenure
+      image: tenureai/tenure:v1.0.23

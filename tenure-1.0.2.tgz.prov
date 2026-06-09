@@ -1,0 +1,77 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/category: ai-machine-learning
+  artifacthub.io/changes: |
+    - kind: added
+      description: Initial Helm chart release
+  artifacthub.io/images: |
+    - name: tenure
+      image: tenureai/tenure:v1.0.24
+  artifacthub.io/license: MIT
+  artifacthub.io/links: |
+    - name: Documentation
+      url: https://tenureai.dev/docs
+    - name: Website
+      url: https://tenureai.dev
+    - name: Research Paper
+      url: https://arxiv.org/abs/2605.11325
+    - name: Support
+      url: https://github.com/tenurehq/tenure/issues
+  artifacthub.io/official: "true"
+apiVersion: v2
+appVersion: v1.0.24
+description: Tenure provides persistent, governable, scoped state for AI systems.
+  Hard boundaries. Full provenance. Audit trails from day one.
+home: https://tenureai.dev
+icon: https://raw.githubusercontent.com/tenurehq/tenure/main/assets/tenure-logo.png
+keywords:
+- - ai
+- - memory
+- - context
+- - llm
+- - rag
+- - vscode
+- - copilot
+- - claude-code
+- - cursor
+- - continue
+- - agent
+- - agent-memory
+- - knowledge-base
+- - engineering
+- - anthropic
+- - openai
+- - mcp
+- - kubernetes
+maintainers:
+- - email: jeff@tenureai.dev
+  name: Jeff Flynt
+name: tenure
+sources:
+- - https://github.com/tenurehq/tenure
+type: application
+version: 1.0.2
+
+...
+files:
+  tenure-1.0.2.tgz: sha256:df334e52b20deb7ce87cc3e3287d4046680a4daf03121ef04c7de755c685921e
+
+-----BEGIN PGP SIGNATURE-----
+
+wsG5BAEBCgBtBYJqJ+gKCRAzNBxhEgcUTEUUAAAAAAAcACBzYWx0QG5vdGF0aW9u
+cy5vcGVucGdwanMub3JniW5QkJ9QAlHwYlUa3B0KJKlsabraiNjZsjhzJSul3eEW
+IQQDBABjuwibR8pUaCQzNBxhEgcUTAAALtoQAI9ZVsQNKEgiZCRnh+e49kpKtHgO
+FBuPGGmd3B/EXPJGaQRvsgz2NbyS3YQzmQW0hotMPhzQQDXVtsSgtwoz08iAX4Js
+nGXsnT/w/WBkxoDoOPFkrcB1xcj7OMy1qS9y8A7iNRB/Ine8HPQgfxnY0hViCNIs
+MjtDwKYKcUHH1toIy/uvTsmThIbgsOo/bVuOFxZWo2k37WphiGGb1U0EeUYVd6GU
+MH5Je/QG/93c7qFvqjRToWGXbG3hepZDNOWwPDoPZGHVsZpGXBy4eChd7xN9BOj+
+SYJ0MYPE4yP9ntdm6Sw2z3qJNhKLxWLgK/2vOTpzdb3D4J3Ii1V1u0oelEmju+6w
++Mf8tefhgzhOG3I3mAP3l1rK2Di4H/DuBEy5BB0jjD94LkX7WWUekgLys0FaIWSa
+PjPzgMxYkl63WwIEH63X79y/HbVZIZ047MpiXGZs3dDlozkeG8R+FaNJPYfnOuiK
+aGrxXMbepMC9rSZ2D1DvHVRktFjaIyyJBpEATuwvOaocYjkcijgk5T1gJ1suclbg
+LfyA5ZN0F6SX3XiQWdWUn0Psq/1XdueScbTlwTExf2PfGAaueDlRUg+iYZf0ikUb
+CubRZpqKkhq5ebauIVDZ5kqYrdcek00sRLQgdQrIxCKOeoUC8IP9dT39ZM103KmJ
+4+zdkVmCzAKZQ362
+-----END PGP SIGNATURE-----

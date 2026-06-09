@@ -77,11 +77,17 @@ spec:
           volumeMounts:
             - name: data
               mountPath: /app/.tenure
+              emptyDir:
+                medium: "Memory"
+                sizeLimit: 64Mi
             - name: secrets
               mountPath: /mnt/secrets
               readOnly: true
             - name: tmp
               mountPath: /tmp
+              emptyDir:
+                medium: "Memory"
+                sizeLimit: 64Mi
             {{- if .Values.database.external.tls.enabled }}
             - name: mongodb-ca
               mountPath: /mnt/mongodb-tls

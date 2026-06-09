@@ -1,0 +1,77 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/category: ai-machine-learning
+  artifacthub.io/changes: |
+    - kind: added
+      description: Initial Helm chart release
+  artifacthub.io/images: |
+    - name: tenure
+      image: tenureai/tenure:v1.0.24
+  artifacthub.io/license: MIT
+  artifacthub.io/links: |
+    - name: Documentation
+      url: https://tenureai.dev/docs
+    - name: Website
+      url: https://tenureai.dev
+    - name: Research Paper
+      url: https://arxiv.org/abs/2605.11325
+    - name: Support
+      url: https://github.com/tenurehq/tenure/issues
+  artifacthub.io/official: "true"
+apiVersion: v2
+appVersion: v1.0.24
+description: Tenure provides persistent, governable, scoped state for AI systems.
+  Hard boundaries. Full provenance. Audit trails from day one.
+home: https://tenureai.dev
+icon: https://raw.githubusercontent.com/tenurehq/tenure/main/assets/tenure-logo.png
+keywords:
+- - ai
+- - memory
+- - context
+- - llm
+- - rag
+- - vscode
+- - copilot
+- - claude-code
+- - cursor
+- - continue
+- - agent
+- - agent-memory
+- - knowledge-base
+- - engineering
+- - anthropic
+- - openai
+- - mcp
+- - kubernetes
+maintainers:
+- - email: jeff@tenureai.dev
+  name: Jeff Flynt
+name: tenure
+sources:
+- - https://github.com/tenurehq/tenure
+type: application
+version: 1.0.3
+
+...
+files:
+  tenure-1.0.3.tgz: sha256:6d943877d4ac9fb13aaa9ca8e5f5b3785e6c06f3e2c7dc02c220c86ecade30af
+
+-----BEGIN PGP SIGNATURE-----
+
+wsG5BAEBCgBtBYJqKF11CRAzNBxhEgcUTEUUAAAAAAAcACBzYWx0QG5vdGF0aW9u
+cy5vcGVucGdwanMub3Jnw7uCVRUTS4/mMySPavtjhv6GFZ4iKDANwMe5Yf9kyy4W
+IQQDBABjuwibR8pUaCQzNBxhEgcUTAAAZW8QAIpKhv9x7WgdBLLQuDYGtR2Gx7y4
+lL+q9GFxSXPZm01jdeAQNiWdXwz2I7CgZ+HyKVw9VwT7oLDI4tS6+5xGm0WfZR4p
+eNHz2LkSC8Cb+PcZSqrw+EurM6MLoYLRJWHq9efBLVOCb79AIl7gUeYoihVb67G1
+xL73iwm3UP0N+O3THmhipgHI1BMmDyuEJi0GEqYnSshsweafi9R4sozakYip8ur6
+qYozkIs8T5zXyGXiQcu3zR5S4gQVB4vNNumxkAnURa8r6B4NFZz7LHnM7GcKnSrB
+sRoSo44UNhLSJ9u9LdGqO/zjXZX+nii6Px6ylDLW9OO2jT2JZk8WWxP5x4LmYeW3
+l4Se4Nw+O3hj7OXBC6+//h1MR/6NF9egzOSNNLau9VAND0LqO59wdLwd1dwDtIpB
+u5zhsxFaEeAkxBDRUOM9wRSDrr31pbHK2LyNLKwGuKQaq7BR25L/Cpin+IFHIeoq
+vis3zgc5IF1p20mDmNupQYX3EdXSvPZkBR6wc/7e8pSfYpZv5ggzjd+/iuI6Fms/
+IdnpapXM4EkFueeM/7UPQAHMdc6LugNnLvxABPE1C+2nCsmtdJ3Pz/wxnQikj3P7
+EZMx+KugK5K7WF/hx3paRZoyVAjIooItwvrS+9xZISegobxEZy2svvQ/8zZQ9KwM
+cXYLdaM6Gi0acShT
+-----END PGP SIGNATURE-----

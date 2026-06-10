@@ -2,8 +2,8 @@ apiVersion: v2
 name: tenure
 description: Tenure provides persistent, governable, scoped state for AI systems. Hard boundaries. Full provenance. Audit trails from day one.
 type: application
-version: 1.0.3
-appVersion: "v1.0.24"
+version: 1.0.4
+appVersion: "v1.0.25"
 icon: https://raw.githubusercontent.com/tenurehq/tenure/main/assets/tenure-logo.png
 home: https://tenureai.dev
 sources:
@@ -48,4 +48,4 @@ annotations:
       description: Initial Helm chart release
   artifacthub.io/images: |
     - name: tenure
-      image: tenureai/tenure:v1.0.24
+      image: tenureai/tenure:v1.0.25

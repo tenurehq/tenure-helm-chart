@@ -1,0 +1,77 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+annotations:
+  artifacthub.io/category: ai-machine-learning
+  artifacthub.io/changes: |
+    - kind: added
+      description: Initial Helm chart release
+  artifacthub.io/images: |
+    - name: tenure
+      image: tenureai/tenure:v1.0.25
+  artifacthub.io/license: MIT
+  artifacthub.io/links: |
+    - name: Documentation
+      url: https://tenureai.dev/docs
+    - name: Website
+      url: https://tenureai.dev
+    - name: Research Paper
+      url: https://arxiv.org/abs/2605.11325
+    - name: Support
+      url: https://github.com/tenurehq/tenure/issues
+  artifacthub.io/official: "true"
+apiVersion: v2
+appVersion: v1.0.25
+description: Tenure provides persistent, governable, scoped state for AI systems.
+  Hard boundaries. Full provenance. Audit trails from day one.
+home: https://tenureai.dev
+icon: https://raw.githubusercontent.com/tenurehq/tenure/main/assets/tenure-logo.png
+keywords:
+- - ai
+- - memory
+- - context
+- - llm
+- - rag
+- - vscode
+- - copilot
+- - claude-code
+- - cursor
+- - continue
+- - agent
+- - agent-memory
+- - knowledge-base
+- - engineering
+- - anthropic
+- - openai
+- - mcp
+- - kubernetes
+maintainers:
+- - email: jeff@tenureai.dev
+  name: Jeff Flynt
+name: tenure
+sources:
+- - https://github.com/tenurehq/tenure
+type: application
+version: 1.0.4
+
+...
+files:
+  tenure-1.0.4.tgz: sha256:a17b24c273a7d4d2ab7389fc03be1cefb9d038cc86410862acb11d99d7c39237
+
+-----BEGIN PGP SIGNATURE-----
+
+wsG5BAEBCgBtBYJqKP4zCRAzNBxhEgcUTEUUAAAAAAAcACBzYWx0QG5vdGF0aW9u
+cy5vcGVucGdwanMub3Jn38hmsaPSkWpt7oSdH06K5dO7f9NRx8BtKa2M4v0DOc8W
+IQQDBABjuwibR8pUaCQzNBxhEgcUTAAAeEQQAKLBLeM9UQzXbw3K+83Kv5BMLNoC
+qTYXh31/qdFBoYAJGhxjmemFgq/td2/UXIObBCdDiZEe294FkSE6J+hUBZgDwVec
+78zPDGOdbgDvcL7xgPWGF1A0alHA0EtWRfND+yQEEjX/7LzB4mXvJCvcxtvUjm6Z
+z+R7BUALavAoGpvusLy3nBJ6HTF+c9CuDlYPxwSGO+AXlq7/+pFoqaR7/Za4+9Ra
+8H0w2TBAx8RoqiJMeR9eBZYcGXdxp5lE7isNfstPqyMMXq25krXveAb9CTGDDn7l
+lyQ3QABTwo1+83qUEN3HNik0DhI1yf2ZMnw+NOt/YtX43Js44UlU9tAzI2z6FvG2
+v6+RWCAsmOIvydiJvOgwigtMeH8WKS5dppQXL0tBkQ6TIA/WyUZIBJTAwO6vNeje
+LRlefQFKVtBlljDEMf5wPV3opj1OfYrnFSSUbRdn5OpcKEA69iJelyuEwQUfBRQL
+mcmTJ4jO88nHiHEBu9ie2G8suQIlEvb0cyXNYuuX7Xp5O7cNa1Putxj8U3+cUd2p
+nMq8Uz4v1Cgn2brOMz/ySf8EhVyDnsEMu+1oFMkHapQQDNluRg/kGxgTvZSeB4O+
+m+4AYmLFBXoYqGJ09koFQLUjGEbhCuJapGykuss+dHrgDeLFxHeV3zXLO5PxXYWD
+f3X5SC051PB7gu7A
+-----END PGP SIGNATURE-----

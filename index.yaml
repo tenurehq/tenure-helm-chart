@@ -8,6 +8,62 @@ entries:
           description: Initial Helm chart release
       artifacthub.io/images: |
         - name: tenure
+          image: tenureai/tenure:v1.0.25
+      artifacthub.io/license: MIT
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://tenureai.dev/docs
+        - name: Website
+          url: https://tenureai.dev
+        - name: Research Paper
+          url: https://arxiv.org/abs/2605.11325
+        - name: Support
+          url: https://github.com/tenurehq/tenure/issues
+      artifacthub.io/official: "true"
+    apiVersion: v2
+    appVersion: v1.0.25
+    created: "2026-06-10T01:03:55.823444737-05:00"
+    description: Tenure provides persistent, governable, scoped state for AI systems.
+      Hard boundaries. Full provenance. Audit trails from day one.
+    digest: a17b24c273a7d4d2ab7389fc03be1cefb9d038cc86410862acb11d99d7c39237
+    home: https://tenureai.dev
+    icon: https://raw.githubusercontent.com/tenurehq/tenure/main/assets/tenure-logo.png
+    keywords:
+    - ai
+    - memory
+    - context
+    - llm
+    - rag
+    - vscode
+    - copilot
+    - claude-code
+    - cursor
+    - continue
+    - agent
+    - agent-memory
+    - knowledge-base
+    - engineering
+    - anthropic
+    - openai
+    - mcp
+    - kubernetes
+    maintainers:
+    - email: jeff@tenureai.dev
+      name: Jeff Flynt
+    name: tenure
+    sources:
+    - https://github.com/tenurehq/tenure
+    type: application
+    urls:
+    - https://charts.tenureai.dev/tenure-1.0.4.tgz
+    version: 1.0.4
+  - annotations:
+      artifacthub.io/category: ai-machine-learning
+      artifacthub.io/changes: |
+        - kind: added
+          description: Initial Helm chart release
+      artifacthub.io/images: |
+        - name: tenure
           image: tenureai/tenure:v1.0.24
       artifacthub.io/license: MIT
       artifacthub.io/links: |
@@ -22,7 +78,7 @@ entries:
       artifacthub.io/official: "true"
     apiVersion: v2
     appVersion: v1.0.24
-    created: "2026-06-09T13:38:00.181389814-05:00"
+    created: "2026-06-10T01:03:55.822786327-05:00"
     description: Tenure provides persistent, governable, scoped state for AI systems.
       Hard boundaries. Full provenance. Audit trails from day one.
     digest: 6d943877d4ac9fb13aaa9ca8e5f5b3785e6c06f3e2c7dc02c220c86ecade30af
@@ -78,7 +134,7 @@ entries:
       artifacthub.io/official: "true"
     apiVersion: v2
     appVersion: v1.0.24
-    created: "2026-06-09T13:38:00.180716028-05:00"
+    created: "2026-06-10T01:03:55.821748476-05:00"
     description: Tenure provides persistent, governable, scoped state for AI systems.
       Hard boundaries. Full provenance. Audit trails from day one.
     digest: df334e52b20deb7ce87cc3e3287d4046680a4daf03121ef04c7de755c685921e
@@ -134,7 +190,7 @@ entries:
       artifacthub.io/official: "true"
     apiVersion: v2
     appVersion: v1.0.23
-    created: "2026-06-09T13:38:00.173057154-05:00"
+    created: "2026-06-10T01:03:55.81385634-05:00"
     description: Open-source AI memory layer for engineering teams. Automatically
       inject organizational knowledge, coding standards, and project context into
       every AI session across VS Code, Claude Code, Cursor, Cline, Continue, and other
@@ -188,7 +244,7 @@ entries:
           url: https://github.com/tenurehq/tenure/issues
     apiVersion: v2
     appVersion: 1.0.20
-    created: "2026-06-09T13:38:00.170888733-05:00"
+    created: "2026-06-10T01:03:55.811758575-05:00"
     description: Open-source AI memory layer for engineering teams. Automatically
       inject organizational knowledge, coding standards, and project context into
       every AI session across VS Code, Claude Code, Cursor, Cline, Continue, and other
@@ -225,4 +281,4 @@ entries:
     urls:
     - https://charts.tenureai.dev/tenure-1.0.0.tgz
     version: 1.0.0
-generated: "2026-06-09T13:38:00.169356656-05:00"
+generated: "2026-06-10T01:03:55.809878378-05:00"
